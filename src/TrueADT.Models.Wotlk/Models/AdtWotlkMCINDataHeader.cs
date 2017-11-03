@@ -10,7 +10,7 @@ namespace TrueADT
 	/// throughout the ADT file.
 	/// </summary>
 	[WireDataContract]
-	public sealed class AdtDataHeader
+	public sealed class AdtWotlkMCINDataHeader
 	{
 		/// <summary>
 		/// Contains the flags for the file data.
@@ -35,7 +35,7 @@ namespace TrueADT
 		public uint MapTextureListOffset { get; }
 
 		//Serializer ctor
-		private AdtDataHeader()
+		private AdtWotlkMCINDataHeader()
 		{
 			
 		}
