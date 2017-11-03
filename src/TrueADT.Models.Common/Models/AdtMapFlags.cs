@@ -11,7 +11,7 @@ namespace TrueADT
 	/// </summary>
 	[Flags]
 	[WireDataContract]
-	public enum AdtMapFlags
+	public enum AdtMapFlags : int
 	{
 		/// <summary>
 		/// Indicates that the ADT defines a bounding box for flying collision.
